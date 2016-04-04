@@ -1,0 +1,66 @@
+{
+  "name": "phoenix_trello",
+  "version": "1.0.0",
+  "description": "ung dung quan ly ghi chu trello",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanloc0301/trello_tutui.git"
+  },
+  "keywords": [
+    "trello"
+  ],
+  "author": "van loc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanloc0301/trello_tutui/issues"
+  },
+  "homepage": "https://github.com/vanloc0301/trello_tutui#readme",
+  "devDependencies": {
+    "babel-core": "*",
+    "webpack": "^1.12.14",
+    "babel-loader": "*",
+    "babel-plugin-transform-decorators-legacy": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "babel-preset-stage-2": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "node-libs-browser": "*",
+    "node-sass": "*",
+    "sass-loader": "*",
+    "style-loader": "*"
+  },
+  "dependencies": {
+    "bourbon": "*",
+    "bourbon-neat": "*",
+    "classnames": "*",
+    "es6-promise": "*",
+    "history": "*",
+    "invariant": "*",
+    "isomorphic-fetch": "*",
+    "moment": "*",
+    "react": "*",
+    "react-addons-css-transition-group": "*",
+    "react-dnd": "*",
+    "react-dnd-html5-backend": "*",
+    "react-dom": "*",
+    "react-gravatar": "*",
+    "react-page-click": "*",
+    "react-redux": "*",
+    "react-router": "*",
+    "react-router-redux": "*",
+    "redux": "*",
+    "redux-logger": "*",
+    "redux-thunk": "*",
+    "phoenix": "file:deps/phoenix",
+    "phoenix_html": "file:deps/phoenix_html"
+  }
+}
